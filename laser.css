@@ -1,0 +1,95 @@
+body { /*Corpo principal da página*/
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    font-family: cursive 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #DEB887;
+    padding: 1px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    border-top: 2px solid black;
+    overflow: hidden;
+    background-color: #DEB887;
+}
+
+/* Style the topnav links */
+.topnav a {
+    justify-content: space-around;
+    float: left;
+    display: fle;
+    color: #000000;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ac7e46;
+    color: black;
+}
+
+.card-text {
+    margin: 0px 450px;
+    padding: 0;
+    text-align: center;
+    background-color: #CBAF92;
+    border-radius: 23px;
+}
+
+.perfil {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+}
+
+.sino {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+.imagemlaser{ /*Tamanho da imagem*/
+    
+        width: 400px;
+        height: 500px;
+}
+.titulo1 {/*Laser Fracionado*/
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+.text p{ /* cor do fundo do texto principal*/
+    background-color:#CBAF92;
+    top: 115%;
+    left: 40%;
+    right: 10%;
+       text-align: justify;
+       width: 20%;
+       height: 10%;
+       border-radius: 5px ;
+       font-size: 15px;
+   }
+.text{ /* posicionamento do texto (centro)*/
+    display: flex;
+    justify-content: center;
+}
